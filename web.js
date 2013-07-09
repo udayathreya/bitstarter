@@ -8,7 +8,7 @@ var app = express.createServer(express.logger());
 var buffer;
 var fs = require('fs');
 
-fs.readFile('/home/ubuntu/bitstarter/index.html', function (err, data) {
+fs.readFile('index.html', function (err, data) {
   if (err) throw err;
   buffer = new Buffer(data, "utf-8");
 });
