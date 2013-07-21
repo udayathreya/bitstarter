@@ -94,6 +94,8 @@
       }  
         #c1{
          background-color: #FFFFFF;
+         width: 95%;
+         padding-top: 3%;
         }
         .video-container { 
         position: relative; /* keeps the aspect ratio */ 
@@ -107,19 +109,25 @@
          display: block;
        padding-left: 5px;
        text-align: justify;
-       margin-top: 15px; /* OR ADD THIS LINE AND SET YOUR PROPER SPACE as the space above box2 */
+       margin: 15px; /* OR ADD THIS LINE AND SET YOUR PROPER SPACE as the space above box2 */
         }
         .bio {
          display: block;
        text-align: justify;
          background-color:#E4FAFC;
-       margin-top: 25px; /* OR ADD THIS LINE AND SET YOUR PROPER SPACE as the space above box2 */
+       margin-top: 15px; /* OR ADD THIS LINE AND SET YOUR PROPER SPACE as the space above box2 */
         }
         #creator {
          -moz-box-orient: vertical;
-    display: inline-block;
-    vertical-align: top;
-    width: 130px;
+         display: inline-block;
+         vertical-align: top;
+         width: 130px;
+        }
+        .leftcol{
+        padding-left: 5%;
+        }
+        #number{
+         font-size: 10px;
         }
     </style>
   </head>
@@ -145,7 +153,7 @@
        </div>
   </div> <!--end of div nav-bar-->
   
-  <div class="container" id="c1">
+  <div class="container">
     <div class="row-fluid heading">
         <div class="span12">
           <h1>Wild WireCraft</h1>
@@ -156,15 +164,19 @@
 	<p class="lead">"Creations to Solutions,Count on us"</p>
        </div>
     </div> <!--end of div container for heading and sub heading-->
+   </div>
+  
+  <div class="container" id="c1">
       
     <div class="row-fluid">
-      <div class="span7">
+      <div class="span7 leftcol">
 	<!--Body content-->
 	     <div class="video-container">
 	       <iframe width="300" height="168" src="http://www.youtube.com/embed/eh1O8a-vs0s" frameborder="0" allowfullscreen></iframe>
 	     </div>
 	     </div>
-      <div class="span5 actions">
+      
+      <div class="span4 actions rightcol">
 	<!--Sidebar content-->
 	    <div class="span8 offset2">
 	         <div class="statistics">
@@ -201,21 +213,28 @@
 	    </div>  
       </div>
       <br /><br />
-      <div class="span5 bio">
+      <div class="span4 bio">
 	<div class="box2">
-	  <img src="http://placehold.it/64x64">
+	  <img src="http://i.imgur.com/XNq1igU.jpg">
 	  <div id="creator">
-	    Project by <br />
+	    <font size="2">Project by</font> <br />
 	    <b>Apoorva</b><br />
 	    Mumbai, India <br />
-	    <a href=#>Contact me </a>
+	    <a href="mailto:wild_wirecraft@hotmail.com">Contact me </a>
+	    </div>
+	  <div class="social-profile">
+	    <span class="icon"> <img src="http://img29.imageshack.us/img29/7373/facebookicon.png"></span>
+	    <span class="text">
+	      <a class="popup" target="_blank" href="https://www.facebook.com/apoorva.dhar">Dhar Apoorva</a>
+	      <span id="number"> 454 friends </span>
+	      </span>
 	    </div>
 	  </div>
 	</div>
       </div> <!--end of div row fluid for video n right widget-->
       
     <div class="row-fluid">
-      <div class="span7">
+      <div class="span7 leftcol">
 	<div>
 	  <p style="text-align:justify;">
 	    <b>Wild Wirecraft is a start-up retail establishment that will sell fashionable/Tribal/Wire wrapped jewellery to women of 21st generation.</b> 
@@ -227,10 +246,6 @@
 	    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat.  
 	    </p>
 	  </div>
-	</div>
-      <div class="span5">
-	<img src="http://placehold.it/64x64">
-	
 	</div>
     </div> <!--end of div row fluid for description-->  
   </div> <!--end of div container-->  
