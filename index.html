@@ -2,7 +2,7 @@
 <html xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <title>Wild WireCraft</title>
+    <title>Wild Wirecraft</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
@@ -124,8 +124,10 @@
          width: 130px;
         }
         .leftcol{
-        padding-left: 5%;
-        }
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 1%;
+       }
         #number{
          font-size: 10px;
         }
@@ -133,44 +135,46 @@
   </head>
   <body>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=303416039803290";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <script>
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=303416039803290";
+    fjs.parentNode.insertBefore(js, fjs);
+    }
+    (document, 'script', 'facebook-jssdk'));
+   </script>
   <div class="navbar navbar-inverse navbar-fixed-top">
        <div class="navbar-inner">
-	 <div class="container">
-	    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" type="button">
-	       <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-		 <span class="icon-bar"></span>
-		          </button>
-	     <a class="brand" href="#">Wild WireCraft</a>
-	      <div class="nav-collapse collapse">
-		  <ul class="nav">
-		      <li class="active"><a href="#">Home</a></li>
-		        <li><a href="#about">About</a></li>
-			  <li><a href="#contact">Contact</a></li>
-			    </ul>
-		  </div>
-	              </div>
+	  <div class="container">
+	        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" type="button">
+		         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				            </button>
+		     <a class="brand" href="#">Wild Wirecraft</a>
+		           <div class="nav-collapse collapse">
+			       <ul class="nav">
+				       <li class="active"><a href="#">Home</a></li>
+				               <li><a href="#about">About</a></li>
+					         <li><a href="#contact">Contact</a></li>
+						     </ul>
+			         </div>
+			                 </div>
        </div>
   </div> <!--end of div nav-bar-->
   
   <div class="container">
     <div class="row-fluid heading">
         <div class="span12">
-          <h1>Wild WireCraft</h1>
+          <h1>Wild Wirecraft</h1>
         </div>
 	</div>
     <div class="row-fluid subheading">
       <div class="span12">
-	<p class="lead">"Creations to Solutions,Count on us"</p>
-	<fb:like href="http://damp-peak-1542.herokuapp.com" send="false" width="450" show_faces="true"></fb:like>
-       </div>
+	<p class="lead">Creations to Solutions, Count on us</p>
+      </div>
     </div> <!--end of div container for heading and sub heading-->
    </div>
   
@@ -180,85 +184,139 @@
       <div class="span7 leftcol">
 	<!--Body content-->
 	     <div class="video-container">
-	       <iframe width="300" height="168" src="http://www.youtube.com/embed/6d9nlEhtgvM" frameborder="0" allowfullscreen></iframe>
-	     </div>
-	     </div>
+	              <iframe width="300" height="168" src="http://www.youtube.com/embed/6d9nlEhtgvM" frameborder="0" allowfullscreen></iframe>
+		           </div>
+	      <a href="#" 
+		 onclick="
+			  window.open(
+			  'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('http://www.youtube.com/watch?v=6d9nlEhtgvM'), 
+			  'facebook-share-dialog', 
+			  'width=626,height=436'); 
+			  return false;">
+		<img src="http://i.imgur.com/H6PszFD.png" width="50" height="20" />
+		</a> &ensp; &ensp;
+	      <a href="https://twitter.com/intent/tweet?text=A+Video+by+Wild+Wirecraft&via=udayathreya&url=http://y2u.be/6d9nlEhtgvM"><img src="http://i.imgur.com/z0WGBHk.png" style="marign-top:5px;"/></a></div>
       
       <div class="span4 actions rightcol">
 	<!--Sidebar content-->
 	    <div class="span8 offset2">
-	         <div class="statistics">
-		          <div class="span4">
-			    <div class="linediv-l">
-			                <h3>1000</h3> <p>backers</p>
-					     </div>
-			        </div>
-			  <div class="span4">
-			    <div class="linediv-c">
-			      <h3>$6000</h3> <p> of 10,000</p>
-			      </div>
-			    </div>
-			  <div class="span4">
-			    <div class="linediv-r">
-			      <h3>10</h3> <p>days left</p>
-			      </div>
-			    </div>
+	               <div class="statistics">
+			           <div class="span4">
+				         <div class="linediv-l">
+					                   <h3>1000</h3> <p>backers</p>
+							        </div>
+					         </div>
+				     <div class="span4">
+				           <div class="linediv-c">
+					           <h3>$6000</h3> <p> of 10,000</p>
+						         </div>
+					       </div>
+				       <div class="span4">
+					     <div class="linediv-r">
+					             <h3>10</h3> <p>days left</p>
+						           </div>
+					         </div>
+				         </div>
+		        </div>
+	        
+	        <div class="span10 offset1">
+		        <div class="thermometer progress active">
+			  <div class="bar bar-success" style="width: 60%;"></div>
+			  <div class="bar bar-warning" style="width: 60%;"></div>
 			  </div>
-		 </div>
-	    
-	    <div class="span10 offset1">
-	      <div class="thermometer progress active">
-		<div class="bar bar-success" style="width: 60%;"></div>
-		<div class="bar bar-warning" style="width: 60%;"></div>
-		</div>
-	      </div>
-	    <div class="span6 offset3 order">
-	      <button class="btn btn-success btn-large">Preorder</button>
-	      </div>
-	    <div class="span8 offset2 social">
-	      <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-	      <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>  
-	    </div>  
+			      </div>
+		    <div class="span6 offset3 order">
+		            <button class="btn btn-success btn-large" onclick="window.open('http://www.craftsvilla.com/wildwirecraft')">Order</button>
+			          </div>
+		        <div class="span8 offset2 social">
+			        <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+				      <button class="btn btn-facebook" onclick="window.open('https://www.facebook.com/wild.wirecraft')"><i class="icon-facebook"></i> | Facebook</button>  
+				          </div>  
       </div>
       <br /><br />
       <div class="span4 bio">
 	<div class="box2">
-	  <img src="http://i.imgur.com/XNq1igU.jpg">
-	  <div id="creator">
-	    <font size="2">Project by</font> <br />
-	    <b>Apoorva</b><br />
-	    Mumbai, India <br />
-	    <a href="mailto:wild_wirecraft@hotmail.com">Contact me </a>
-	    </div>
-	  <div class="social-profile">
-	    <span class="icon"> <img src="http://img29.imageshack.us/img29/7373/facebookicon.png"></span>
-	    <span class="text">
-	      <a class="popup" target="_blank" href="https://www.facebook.com/apoorva.dhar">Dhar Apoorva</a>
-	      <span id="number"> 454 friends </span>
-	      </span>
-	    </div>
-	  </div>
+	    <img src="http://i.imgur.com/XNq1igU.jpg">
+	      <div id="creator">
+		    <font size="2">Project by</font> <br />
+		        <b>Apoorva</b><br />
+			    Mumbai, India <br />
+			    <a href="mailto:wild_wirecraft@hotmail.com">Contact me </a>
+			        </div>
+	        <div class="social-profile">
+		      <span class="icon"> <img src="http://img29.imageshack.us/img29/7373/facebookicon.png"></span>
+		          <span class="text">
+			          <a class="popup" target="_blank" href="https://www.facebook.com/apoorva.dhar">Dhar Apoorva</a>
+				        <span id="number"> 454 friends </span>
+					      </span>
+			      </div>
+		  </div>
 	</div>
       </div> <!--end of div row fluid for video n right widget-->
       
     <div class="row-fluid">
       <div class="span7 leftcol">
 	<div>
-	  <p style="text-align:justify;">
-	    <b>Wild Wirecraft is a start-up retail establishment that will sell fashionable/Tribal/Wire wrapped jewellery to women of 21st generation.</b> 
-	    </p>
-	  </div>
+	    <p style="text-align:justify;">
+	          <br /><b>Wild Wirecraft is a start-up retail establishment which makes and sells fashionable/Tribal/Wire wrapped jewellery to women of 21st generation.</b> 
+		      </p>
+	      </div>
 	<br/>
 	<div>
-	  <p style="text-align:justify;">
-	    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat.  
-	    </p>
-	  </div>
+	    <p style="text-align:justify;">
+	      We offer individuality and design timeless pieces of jewellery suitable for many occasions. Wire wrapping can create some of the most beautiful and delicate looking pendants and jewellery. A movement to break free from uninspired mass produced junk, Wild Wirecraft is a place where we emphasize on creativity and showcase our original work. We can give you variety with chunky, unusual, beautiful, gently and quirky pieces included in our range. Lovers of art - buy from us to show off your exquisite taste.
+	         </p>
+	       <p style="text-align:justify;">
+		  We are in the process of setting up an e-commerce model for our business inorder to increase our sales, reach out to more customers and let them enjoy a new and fresh shopping experience. We would be offering additional discounts for customers who order from here - Stay Tuned!  
+		     </p>
+	         </div>
 	<div>
-	  
-	  </div>
+	    
+	    </div>
 	</div>
-    </div> <!--end of div row fluid for description-->  
+    </div> <!--end of div row fluid for description--> 
+
+    <div class="row-fluid faq">
+    <div class="span7 leftcol">
+       <h3>FAQ</h3>
+        <div class="accordion" id="accordion2">
+	    <div class="accordion-group">
+	         <div class="accordion-heading">
+		       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+			 Can I buy a piece of jewellery directly from you?
+			 </a>
+		          </div>
+		    <div id="collapseOne" class="accordion-body collapse">
+		          <div class="accordion-inner">
+			     Yes! Just email me at <a href="mailto:wild_wirecraft@hotmail.com">wild_wirecraft@hotmail.com</a><br />
+			      You can also check out our products at <a href=" http://www.craftsvilla.com/wildwirecraft">Wild Wirecraft</a>
+			     </div>
+			     </div>
+		      </div> 
+	      <div class="accordion-group">
+		  <div class="accordion-heading">
+		       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+			    Can I get customized jewellery?
+			       </a>
+		          </div>
+		     <div id="collapseTwo" class="accordion-body collapse">
+		           <div class="accordion-inner">
+			      Yes. Just email me and we can discuss the designs and create something custom and unique just for you! Contact me here: <a href="mailto:wild_wirecraft@hotmail.com">wild_wirecraft@hotmail.com</a>
+			      </div>
+			      </div>
+		       </div> 
+	       </div>
+	</div>
+    
+  </div> <!-- end of div faq -->
+  <div class="span7 leftcol">
+    <fb:like href="http://damp-peak-1542.herokuapp.com" send="false" width="450" show_faces="true"></fb:like>
+  </div>
+  <div class="row-fluid footer">
+   <div class="span12">
+    <p>This webiste is managed & maintained by <a href="https://play.google.com/store/search?q=udroidsa">UDroidsa</a></p>
+   </div>
+  </div>
   </div> <!--end of div container-->  
   </body>
 </html>
